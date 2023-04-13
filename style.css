@@ -1,0 +1,76 @@
+body {
+  background-color: #c7d9e8;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3rem;
+  margin-top: 3rem;
+}
+
+.container {
+  max-width: 50rem;
+  margin: 3rem auto;
+  padding: 2rem;
+  background-color: #fff;
+  border-radius: 1rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+}
+
+label {
+  display: block;
+  font-size: 1.2rem;
+  margin-top: 1.5rem;
+}
+
+textarea {
+  display: block;
+  width: 100%;
+  height: 10rem;
+  padding: 1rem;
+  font-size: 1.2rem;
+  margin-top: 0.5rem;
+  border-radius: 0.5rem;
+  border: none;
+  box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.2);
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1.5rem;
+}
+
+button {
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  border-radius: 0.5rem;
+  border: none;
+  background-color: #5c8baf;
+  color: #fff;
+  box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+button:hover {
+  background-color: #2e506d;
+}
+
+button:active {
+  transform: translateY(0.2rem);
+  box-shadow: 0 0.1rem 0.3rem rgba(0, 0, 0, 0.2);
+}
+
+#copy-btn {
+  background-color: #48bb78;
+}
+
+#copy-btn:hover {
+  background-color: #2f855a;
+}
+
+#copy-btn:active {
+  box-shadow: 0 0.1rem 0.3rem rgba(0, 0, 0, 0.2);
+  transform: translateY(0.2rem);
+}
